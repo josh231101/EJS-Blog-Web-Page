@@ -1,0 +1,11 @@
+<%-include("partials/header")-%>
+<h1>Home page</h1>
+<p> <%= homeStartingContent %> </p>
+
+<%posts.forEach(function(post){%>
+  <%const title = post.title.toLowerCase()%>
+  <h1><%=post.title%></h1>
+  <p><%=post.content.substring(0,100) + " ..."%> <a href="/posts/<%= title %>" >Read More</a></p>
+<%})%>
+
+<%-include("partials/footer")-%>
