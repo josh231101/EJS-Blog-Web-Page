@@ -69,7 +69,10 @@ app.post("/compose",function(req,res){
   post.save();
   res.redirect("/")
 })
-
-app.listen(8080,function(){
-  console.log("Page running on port 8080");
+let port = process.env.PORT;
+if(port == null || port == ""){
+  port = 3000
+}
+app.listen(port,function(){
+  console.log("Page running successfully");
 });
