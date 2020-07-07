@@ -3,7 +3,7 @@
 <img src="/public/images/welcome.png"> <br>
 
 Welcome to ejs personal blogsite repository!<br>
-The main purpose of this repo was to create a blogsite where the author can post whenever and wherever he wants. This site also includes relevant information of me as a web developer.<br>
+The main purpose of this repo was to create a blogsite where the author can post whenever and wherever he wants. This site also includes relevant information about me as a web developer.<br>
 **GO AND CHECK [MY PERSONAL BLOGSITE](https://immense-forest-32922.herokuapp.com/)**
 
 ## Features:fire:
@@ -36,14 +36,13 @@ To make sure you have installed node write in your terminal <br>
 
 ```
 $ node --version
-
 ```
 
 To have the repo in your local computer, follow the next steps: <br>
 
 Clone the repository in your terminal: <br>
 ```
-$ git clone https://github.com/josh231101/WeatherWebApp.git
+$ git clone https://github.com/josh231101/EJS-Blog-Web-Page.git
 ```
 
 Make sure you are in the correct folder. <br>
@@ -62,9 +61,7 @@ Go the app.js and change the `mongoose.connect` const an change it for your acco
 You are now ready to run the blogsite in your localhost:<br>
 
 ```
-
 $ node app.js
-
 ```
 
 ## TODO:pencil:
