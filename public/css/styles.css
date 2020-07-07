@@ -6,12 +6,6 @@ p{
   position: relative;
   margin: 0;
   margin-bottom: 3rem;
-  /*https://cdn.pixabay.com/photo/2017/06/30/21/28/landscape-2459857_960_720.jpg*/
-  /*https://images.alphacoders.com/938/938243.jpg*/
-  /* https://www.pixel4k.com/wp-content/uploads/2019/03/mountain-covered-with-snow-4k_1551644491.jpg */
-  /* https://images.hdqwalls.com/download/mountains-landscape-nw-2560x1080.jpg */
-  /* https://cdn.pling.com/img/b/c/f/4/5c312d2d8fca57165d4e4e48085f769a9a26.jpg */
-  /* https://wallpaperaccess.com/full/1216331.jpg */
   background-image: url("https://mocah.org/uploads/posts/4589585-landscape-nature-mountains-caucasus.jpg");
   text-align: center;
   width: auto;
@@ -28,6 +22,9 @@ p{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+.vertical-center h2{
+  text-align: center;
 }
 h2{
   font-family: 'Pacifico', cursive;
@@ -93,9 +90,34 @@ h2{
   text-align: left;
 }
 .owner-img{
-  border-radius: 50%;
-  height: 200px;
+  position: relative;
+  border-radius: 2rem;
+  height: 250px;
   width: 200px;
+}
+@media(min-width : 1200px){
+ .hero-img::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    border: 0.25rem solid white;
+    top: 2rem;
+    left: 3rem;
+    border-radius: 2rem;
+  }
+}
+@media(max-width : 994px){
+  .owner-img{
+    text-align: center;
+    margin-bottom: 3rem;
+    height: 200px;
+  }
+  .center-img{
+    display: flex;
+    justify-content: center;
+
+  }
 }
 hr{
   text-align: left;
@@ -109,12 +131,12 @@ hr{
   text-align: left;
 }
 .bio-padding{
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 .txt-services{
   color: #4f99b0;
   text-align: center;
-  margin: 4rem;
+  margin: 5rem;
 }
 .services {
   text-align: center !important;

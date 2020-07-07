@@ -6,8 +6,9 @@
 
 <%posts.forEach(function(post){%>
   <%const title = post.title.toLowerCase()%>
+  <%const id = post._id%>
   <h1><%=post.title%></h1>
-  <p><%=post.content.substring(0,100) + " ..."%> <a href="/posts/<%= title %>" >Read More</a></p>
+  <p><%=post.content.substring(0,100) + " ..."%> <a href="/posts/<%= id %>" >Read More</a></p>
 <%})%>
 
 <%-include("partials/footer")-%>
