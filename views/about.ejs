@@ -1,4 +1,55 @@
 <%- include("partials/header") -%>
-<h1>About Me</h1>
-<p> <%= aboutContent %> </p>
-<%- include("partials/footer") -%>
+<%- include("partials/mainbg.ejs") -%>
+<div class="container">
+  <h1>About Me</h1>
+  <p> <%= aboutContent %> </p>
+</div>
+<div class="about-me">
+  <div class="container ">
+    <div class="row bio-padding">
+      <div class="col-lg-3">
+        <img class="owner-img" src="/images/owner.jpg" alt="Josue Arreola web developer">
+      </div>
+      <div class="bio col-lg-9">
+        <h2>Josue Arreola</h2>
+        <hr>
+        <p>Full-stack web developer based in Tampico,MX. My passion for technology started when I was a 7-years-old kid when I had my first windows vista computer. My coding carrer started in 2018 when I learned my very first programming language: C.
+          In 2019 I learned Java with Android Studio. In 2020 I started my web development bootcamp.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h2 class="txt-services">My Services</h2>
+  <div class="services">
+
+    <div class="row">
+      <div class="card col-lg-4 col-xs-6">
+        <i class="icon fab fa-html5 fa-6x"></i>
+        <p>HTML</p>
+      </div>
+      <div class="card  col-lg-4 col-xs-6  ">
+        <i class="icon fab fa-css3-alt fa-6x"></i>
+        <p>CSS</p>
+      </div>
+      <div class="card  col-lg-4 col-xs-6">
+        <i class="icon fab fa-js fa-6x"></i>
+        <p>Javascript</p>
+      </div>
+      <div class="card  col-lg-4 col-xs-6">
+        <i class="icon fab fa-node-js fa-6x"></i>
+        <p>Node.js</p>
+      </div>
+      <div class="card  col-lg-4 col-xs-6">
+        <i class="icon fas fa-server fa-6x"></i>
+        <p>MongoDB & Mongoose</p>
+      </div>
+      <div class="card  col-lg-4 col-xs-6">
+        <i class="icon fab fa-github fa-6x"></i>
+        <p>Git & Github</p>
+      </div>
+    </div>
+  </div>
+
+
+  <%- include("partials/footer") -%>

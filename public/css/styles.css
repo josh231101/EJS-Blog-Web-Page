@@ -1,3 +1,66 @@
+p{
+  font-size: 1.8rem;
+  text-align: justify;
+}
+.bg{
+  position: relative;
+  margin: 0;
+  margin-bottom: 3rem;
+  /*https://cdn.pixabay.com/photo/2017/06/30/21/28/landscape-2459857_960_720.jpg*/
+  /*https://images.alphacoders.com/938/938243.jpg*/
+  /* https://www.pixel4k.com/wp-content/uploads/2019/03/mountain-covered-with-snow-4k_1551644491.jpg */
+  /* https://images.hdqwalls.com/download/mountains-landscape-nw-2560x1080.jpg */
+  /* https://cdn.pling.com/img/b/c/f/4/5c312d2d8fca57165d4e4e48085f769a9a26.jpg */
+  /* https://wallpaperaccess.com/full/1216331.jpg */
+  background-image: url("https://mocah.org/uploads/posts/4589585-landscape-nature-mountains-caucasus.jpg");
+  text-align: center;
+  width: auto;
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+h2{
+  font-family: 'Pacifico', cursive;
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+
+}
+.iconbg{
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.navbar {
+  background: transparent;
+}
+.navbar-brand{
+  color: white;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+.navbar.scrolled {
+  background-color: black !important;
+}
+
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -12,24 +75,80 @@
     letter-spacing: 5px;
 }
 .navbar-nav  li a:hover {
+  background: transparent !important;
     color: #1abc9c !important;
 }
 
 .footer-padding {
 	padding-bottom: 60px;
 }
+.about-me{
+  background-color: #4f99b0;
+  margin-top: 6rem;
+}
+.about-me p{
+  color: white;
+}
+.about-me h1,h2{
+  text-align: left;
+}
+.owner-img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+hr{
+  text-align: left;
+  margin-left: 0;
+  background: white;
+  border-color: white;
+  width: 12%;
+  height: 4px;
+}
+.bio{
+  text-align: left;
+}
+.bio-padding{
+  padding: 4rem 0;
+}
+.txt-services{
+  color: #4f99b0;
+  text-align: center;
+  margin: 4rem;
+}
+.services {
+  text-align: center !important;
+}
+.services p{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.card{
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.card:hover{
+  background-color: #4f99b0;
 
-.footer {
-	position: absolute;
+}
+.card:hover .icon{
+  color: white;
+}
+.services .row a{
+  color : #333;
+}
+footer {
+  margin-top: 2rem;
+  padding: 3rem 0;
 	text-align: center;
-	bottom: 0;
 	width: 100%;
-	height: 60px;
-	background-color: #1abc9c;
+	background-color: #063767;
 }
 
-.footer p {
-	margin-top: 25px;
-	font-size: 12px;
+footer p {
+  font-size: 1.8rem;
+  margin: 4rem auto;
+  text-align: center;
+	margin: auto;
   color: #fff;
 }
